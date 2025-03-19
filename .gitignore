@@ -1,0 +1,50 @@
+# Node.js specific files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+output.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+
+# Build files
+dist/
+coverage/
+.out/
+.cache/
+
+# Test files
+*.test.js
+*.spec.js
+jest/
+cypress/
+
+# Dependency locks
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Miscellaneous
+*.bak
+*.tmp
+*.seed
+*.pid
+*.gz
